@@ -1,2 +1,2 @@
 # blogmanager
-Web application blog manager. HTML, CSS, Bootstrap 4
+Web application blog manager. HTML, Bootstrap 4 multisides 
