@@ -3,3 +3,24 @@
     margin-top: .5rem;
   }
 }
+
+/* 
+stretch content to the bottom of the screen to make the footer stick to the bottom
+in case the content does not fill the whole screen to prevent the footer to be placed
+in the middle of the screen.
+*/
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 
+stretch content to the bottom of the screen to make the footer stick to the bottom
+in case the content does not fill the whole screen to prevent the footer to be placed
+in the middle of the screen.
+*/
+.content-wrapper {
+  flex: 1 0 auto;
+}
